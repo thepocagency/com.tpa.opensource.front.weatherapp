@@ -59,6 +59,6 @@ You will have to:
 
 ## Credits
 
-We'd like to thank you [Backbase](http://www.backbase.com){:target="_blank"} for this nice assignment :)
+We'd like to thank you [Backbase](http://www.backbase.com) for this nice assignment :)
 
-Developped by Alexandre Veremme @ [The POC Agency](https://www.the-poc-agency.com){:target="_blank"}
+Developped by Alexandre Veremme @ [The POC Agency](https://www.the-poc-agency.com)
