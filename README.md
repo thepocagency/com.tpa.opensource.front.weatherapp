@@ -2,11 +2,9 @@
 
 This is a simple Angular app to test the OpenWeatherMap API.
 
-We'd like to thank you Backbase for this nice assignment.
-
 ## Local setup
 
-Execute and install the next tools:
+Execute the next command lines to install these tools:
 
 - sudo apt install nodejs-legacy
 
@@ -28,7 +26,7 @@ Execute and install the next tools:
 
     exec 'grunt serve'
 
-- To run it locally but using a different configuration, you can specify the env you want:
+- To run it locally but using a selected configuration, you can specify the env you want:
 
     exec 'grunt serve --env=STAGE'
 
@@ -48,8 +46,6 @@ API key can be defined in the directory /modules/tpa/config/env/XXX
 
 - When you launch 'grunt serve|build' with the '--env' parameter, Grunt knows which configuration file can be used
 
-NB: 
-
 
 ## To run it on Apache2
 
@@ -59,4 +55,10 @@ You will have to:
 
 - Simply install Apache2 and configure a new Virtual Host
 
-- Move the generated files from the 'dist' Grunt directory to the 'DocumentRoot'
+- Move the generated files from the 'dist' Grunt directory to the 'DocumentRoot' of your Apache
+
+## Credits
+
+We'd like to thank you [Backbase](http://www.backbase.com){:target="_blank"} for this nice assignment :)
+
+Developped by Alexandre Veremme @ [The POC Agency](https://www.the-poc-agency.com){:target="_blank"}
