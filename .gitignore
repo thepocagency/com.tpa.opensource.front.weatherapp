@@ -1,0 +1,8 @@
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/bower_components
+/nbproject/
+/.editorconfig
+/app/modules/tpa/config/tpa-config.js
