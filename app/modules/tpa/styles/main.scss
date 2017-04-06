@@ -18,8 +18,13 @@ body {
     overflow-x: hidden;
 }
 
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 730px;
+.main-container {
+    margin-top: 55px;
+}
+
+#homeView {
+    img {
+        margin-top: 50px;
+        width: 100px;
     }
 }

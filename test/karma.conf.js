@@ -36,6 +36,7 @@ module.exports = function(config) {
       'bower_components/angular-pageslide-directive/dist/angular-pageslide-directive.js',
       'bower_components/slick-carousel/slick/slick.js',
       'bower_components/angular-slick-carousel/dist/angular-slick.js',
+      'bower_components/angular-ui-select/dist/select.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

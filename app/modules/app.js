@@ -11,6 +11,7 @@ angular
             'LocalStorageModule',
             'smart-table',
             'ui.bootstrap',
+            'ui.select',
             'pageslide-directive',
             'slickCarousel'
         ])
@@ -24,12 +25,12 @@ angular
                     
                     .otherwise({templateUrl:'/404.html'});;
         })
-        // Required to allow external call
+        // To allow external risky calls
         .config(function($sceDelegateProvider) {
             $sceDelegateProvider.resourceUrlWhitelist([
-                // Allow same origin resource loads.
+                // Allow same origin resource loads
                 'self',
-                // Allow loading from our assets domain.  Notice the difference between * and **.
+                // Allow loading from our assets domain
                 tpaConfig.api.url + '**'
             ]
         )});

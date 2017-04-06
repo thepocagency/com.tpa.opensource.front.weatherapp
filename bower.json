@@ -16,7 +16,8 @@
     "angular-bootstrap": "^2.3.0",
     "angular-pageslide-directive": "^2.1.2",
     "components-font-awesome": "^4.7.0",
-    "angular-slick-carousel": "^3.1.7"
+    "angular-slick-carousel": "^3.1.7",
+    "angular-ui-select": "^0.19.6"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"
