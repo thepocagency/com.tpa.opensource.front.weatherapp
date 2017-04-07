@@ -38,7 +38,7 @@ Execute the next command lines to install these tools:
 
 ## Configuration 
 
-OpenWeatherMap API key can be defined in the directory /modules/tpa/config/env/XXX
+OpenWeatherMap API key can be defined in the directory /modules/tpa/config/env/XXX/tpa-config.js
 
 - XXX can be: DEV / STAGE / PROD for ex.
 
