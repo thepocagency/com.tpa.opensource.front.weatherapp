@@ -1,6 +1,6 @@
-# My Weather Forecast App
+# My Weather ForecAspp
 
-This is a simple-demo Angular app to test the OpenWeatherMap API and [Angular-Chart.js](http://jtblin.github.io/angular-chart.js/)
+This is a simple-demo responsive Angular app to test the OpenWeatherMap API and [Angular-Chart.js](http://jtblin.github.io/angular-chart.js/)
 
 ## Local setup
 
