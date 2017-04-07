@@ -4,20 +4,13 @@
   "dependencies": {
     "angular": "^1.6.2",
     "bootstrap-sass-official": "^3.2.0",
-    "angular-animate": "^1.4.0",
-    "angular-cookies": "^1.4.0",
     "angular-resource": "^1.4.0",
     "angular-route": "^1.4.0",
     "angular-sanitize": "^1.4.0",
-    "angular-touch": "^1.4.0",
     "angular-local-storage": "^0.5.2",
-    "kjur-jsrsasign": "jsrsasign#^6.2.2",
-    "angular-smart-table": "^2.1.8",
     "angular-bootstrap": "^2.3.0",
-    "angular-pageslide-directive": "^2.1.2",
-    "components-font-awesome": "^4.7.0",
-    "angular-slick-carousel": "^3.1.7",
-    "angular-ui-select": "^0.19.6"
+    "angular-ui-select": "^0.19.6",
+    "moment": "^2.18.1"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"

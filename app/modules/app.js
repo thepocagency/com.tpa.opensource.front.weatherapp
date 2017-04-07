@@ -2,18 +2,12 @@
 
 angular
         .module('com.tpa.opensource.mywfa', [
-            'ngAnimate',
-            'ngCookies',
             'ngResource',
             'ngRoute',
             'ngSanitize',
-            'ngTouch',
             'LocalStorageModule',
-            'smart-table',
             'ui.bootstrap',
-            'ui.select',
-            'pageslide-directive',
-            'slickCarousel'
+            'ui.select'
         ])
         .config(function ($routeProvider) {
             $routeProvider
