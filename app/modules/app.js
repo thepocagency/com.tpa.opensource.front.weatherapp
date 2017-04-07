@@ -7,7 +7,8 @@ angular
             'ngSanitize',
             'LocalStorageModule',
             'ui.bootstrap',
-            'ui.select'
+            'ui.select',
+            "chart.js"
         ])
         .config(function ($routeProvider) {
             $routeProvider

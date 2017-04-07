@@ -17,12 +17,20 @@ angular.module('com.tpa.opensource.mywfa')
             return $resource(
                     tpaConfig.api.url + ':action?id=:city_id',
                     {
+                        action: '@action',
                         APPID: tpaConfig.api.key,
                         mode: 'json',
                         units: 'metric',
                         lang: 'en'
                     },
                     {
+                        // This is a generic call, you have to speciy the action path
+                        getDataWeatherByAction: {
+                            method: 'JSONP',
+                            isArray: false
+                        },
+                        
+                        // Specific call to get current weather
                         getCurrentWeather: {
                             method: 'JSONP',
                             params: {
@@ -30,6 +38,8 @@ angular.module('com.tpa.opensource.mywfa')
                             },
                             isArray: false
                         },
+                        
+                        // Specific call to get forecast
                         getForecast: {
                             method: 'JSONP',
                             params: {

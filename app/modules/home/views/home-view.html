@@ -30,28 +30,42 @@
         </div>
     </div>
     
-    <div class="row">  
+    <div class="row" ng-show="action === 'weather' && cities.selected != null">  
         <div class="col-sm-12">
             
             <div class="row">  
-                <div class="col-sm-6">
+                <div class="col-sm-6 text-center">
                     <img class="main-logo" src="images/sunrise.png" alt=""/>
                 </div>
                 
-                <div class="col-sm-6">
-                    {{sunrise}}
+                <div class="col-sm-6 text-center bottom-align-text">
+                    <span>{{sunrise}}</span>
                 </div>
             </div>
             
             <div class="row">  
-                <div class="col-sm-6">
+                <div class="col-sm-6 text-center">
                     <img class="main-logo" src="images/sunset.png" alt=""/>
                 </div>
                 
-                <div class="col-sm-6">
-                    {{sunset}}
+                <div class="col-sm-6 text-center bottom-align-text">
+                    <span>{{sunset}}</span>
                 </div>
-            </div            
+            </div>
         </div>
     </div>
+    
+    <div class="row" ng-show="action === 'forecast' && cities.selected != null">  
+        <div class="col-sm-12 text-center">
+            <canvas id="line" class="chart chart-line" chart-data="data"
+                    chart-labels="labels" chart-series="series" chart-options="options"
+                    chart-dataset-override="datasetOverride" chart-click="onClick">
+            </canvas>
+            
+            <span>
+                Sea level pressure
+            </span>
+        </div>
+    </div>
+    
 </div>

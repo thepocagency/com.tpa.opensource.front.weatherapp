@@ -10,13 +10,64 @@ body {
     overflow-x: hidden;
 }
 
+.background-image {
+    height: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('http://wallpapercave.com/wp/GK8qmsH.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
+
 .main-container {
-    margin-top: 55px;
+    margin-top: 80px;
+}
+
+@media (max-width: 299px ) {
+    .main-container {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 244px ) {
+    .main-container {
+        margin-top: 130px;
+    }
 }
 
 #homeView {
     img {
         margin-top: 50px;
         width: 100px;
+    }
+    
+    @media (min-width: 768px ) {
+        .row {
+            position: relative;
+        }
+
+        .bottom-align-text {
+            font-size: 40px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    
+    @media (max-width: 768px ) {
+        .bottom-align-text {
+            font-size: 25px;
+            padding-top: 20px;
+        }
+    }
+    
+    canvas {
+        margin-top: 20px;
+    }
+ }
+
+.footer {
+    a {
+        color: white;
     }
 }
