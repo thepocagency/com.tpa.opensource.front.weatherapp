@@ -4,6 +4,10 @@ This is a simple-demo responsive Angular app to test the OpenWeatherMap API and 
 
 # Screenshots
 
+The background image comes from [Wallpapercave.com](http://wallpapercave.com/weather-wallpapers), **you have to respect its licence to use it** ! This is just a demo app, you can not use the background image, expect if you respect the license. 
+
+** The POC Agency is not responsible for any legal issue, related to this background image. **
+
 ![Sunrise and sunset times screen](/app/images/screenshots/sunrise-sunset-screenshot.png?raw=true "Sunrise and sunset times screen")
 
 ![Forecast screen](/app/images/screenshots/forecast-screenshot.png?raw=true "Sunrise and sunset times screen")
