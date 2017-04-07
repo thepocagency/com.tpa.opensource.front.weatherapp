@@ -1,4 +1,4 @@
-# My Weather ForecAspp
+# Weather ForecAspp
 
 This is a simple-demo responsive Angular app to test the OpenWeatherMap API and [Angular-Chart.js](http://jtblin.github.io/angular-chart.js/)
 
