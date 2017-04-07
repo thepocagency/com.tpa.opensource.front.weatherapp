@@ -2,6 +2,12 @@
 
 This is a simple-demo responsive Angular app to test the OpenWeatherMap API and [Angular-Chart.js](http://jtblin.github.io/angular-chart.js/)
 
+# Screenshots
+
+![Sunrise and sunset times screen](/app/images/screenshots/sunrise-sunset-screenshot.png?raw=true "Sunrise and sunset times screen")>
+
+![Forecast screen](/app/images/screenshots/forecast-screenshot.png?raw=true "Sunrise and sunset times screen")>
+
 ## Local setup
 
 Execute the next command lines to install these tools:
