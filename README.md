@@ -4,9 +4,9 @@ This is a simple-demo responsive Angular app to test the OpenWeatherMap API and 
 
 # Screenshots
 
-![Sunrise and sunset times screen](/app/images/screenshots/sunrise-sunset-screenshot.png?raw=true "Sunrise and sunset times screen")>
+![Sunrise and sunset times screen](/app/images/screenshots/sunrise-sunset-screenshot.png?raw=true "Sunrise and sunset times screen")
 
-![Forecast screen](/app/images/screenshots/forecast-screenshot.png?raw=true "Sunrise and sunset times screen")>
+![Forecast screen](/app/images/screenshots/forecast-screenshot.png?raw=true "Sunrise and sunset times screen")
 
 ## Local setup
 
